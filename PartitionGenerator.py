@@ -39,11 +39,11 @@ def partitionRecursion(collection):
 
 # função main para poder testar os metodos desta classe
 if __name__ == '__main__':
-    partition(4)
-    # cardinality = 4
-    # #Cria uma partição com cardinalidade 4
-    # partitionRecursion = PartitionGenerator(cardinality)
-    #
-    # partitionIndex = 2
-    # #Testa o metodo que busca algum elemento da lista.
-    # partitionRecursion.getPartition(partitionIndex)
+     #partition(4)
+     cardinality = 4
+     #Cria uma partição com cardinalidade 4
+     partitionRecursion = PartitionGenerator(cardinality)
+    
+     partitionIndex = 2
+     #Testa o metodo que busca algum elemento da lista.
+     partitionRecursion.getPartition(partitionIndex)
